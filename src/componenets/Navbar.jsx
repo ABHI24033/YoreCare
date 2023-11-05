@@ -51,7 +51,7 @@ const Navbar = () => {
             {menuOpen ? (<FaXmark className=' my-3 text-xl mr-5 ' />) : (<FaBars className=' my-3 text-xl mr-5 ' />)}
           </div>
           <div className=' '>
-            <ul className={`flex flex-col z-50 bg-white absolute top-0 py-14 h-screen gap-8  w-[15rem] px-10 ${menuOpen ? 'left-0' : ' -left-[20rem] '} duration-1000`} >
+            <ul className={`flex flex-col z-50 bg-white absolute top-0 py-14 h-screen gap-8 -left-[20rem] w-[15rem] px-10 ${menuOpen ? 'left-0' : ' -left-[20rem] '} duration-1000`} >
               <li><a href="#" className=''>Home</a></li>
               <li><a href="#">App Features
                 {/* <IoIosArrowDown/>  bg-primaryColor*/}
