@@ -38,7 +38,7 @@ const Accordian = (props) => {
                         </div>
                         <div className='flex flex-col gap-4 w-[50ch]'>
                             <h1 className=' text-2xl font-semibold '>{props.data.content1.h1}</h1>
-                            <p className={ accordianNumber==1?"w-[30ch] md:[40ch]": "hidden"}>{props.data.content1.p}</p>
+                            <p className={ accordianNumber==1?"w-[25ch] md:[40ch]": "hidden"}>{props.data.content1.p}</p>
 
                         </div>
                     </div>
@@ -51,7 +51,7 @@ const Accordian = (props) => {
                         </div>
                         <div className='flex flex-col gap-4 w-[45ch]'>
                             <h1 className=' text-2xl font-semibold '>{props.data.content2.h1}</h1>
-                            <p className={ accordianNumber==2?"w-[30ch] md:[40ch]": "hidden"}>{props.data.content2.p}</p>
+                            <p className={ accordianNumber==2?"w-[25ch] md:[40ch]": "hidden"}>{props.data.content2.p}</p>
 
                         </div>
                     </div>
@@ -64,7 +64,7 @@ const Accordian = (props) => {
                         </div>
                         <div className='flex flex-col gap-4 w-[45ch]'>
                             <h1 className=' text-2xl font-semibold '>{props.data.content3.h1}</h1>
-                            <p className={ accordianNumber==3?"w-[30ch] md:w-[40ch]": "hidden"}>{props.data.content3.p}</p>
+                            <p className={ accordianNumber==3?"w-[25ch] md:w-[40ch]": "hidden"}>{props.data.content3.p}</p>
 
                         </div>
                     </div>

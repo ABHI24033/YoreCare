@@ -8,7 +8,7 @@ const Banner = () => {
     // <div>
       <div className='fixed top-16 -z-50'>
         <div className=" flex mx-auto w-[95%] h-full flex-col md:flex-row  md:w-[80%]">
-          <div className=" my-16 mx-24 w-[60%]">
+          <div className=" my-16 mx-2 px-2 md:mx-24 w-[100%] md:w-[60%]">
             <h1 className=' heading text-4xl md:text-6xl mb-10'>Digitize, Preserve & Empower <span className=' text-blue-700'>Healthcare</span></h1>
             <p className=' text-2xl md:text-3xl leading-relaxed'>Your comprehensive online healthcare solution, we provide 24x7 access to personalized healthcare services, seamless integration of health devices, and daily health updates, all within a unified and empowering ecosystem.</p>
           </div>
