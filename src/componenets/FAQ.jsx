@@ -3,7 +3,7 @@ import { Accordion } from 'flowbite-react';
 const FAQ = () => {
     return (
         <div className=' py-8'>
-            <h1 className='text-center text-5xl fo-nunito font-bold opacity-80 my-10'>Frequently Asked Question</h1>
+            <h1 className='text-center text-2xl md:text-5xl fo-nunito font-bold opacity-80 my-10'>Frequently Asked Question</h1>
             <Accordion collapseAll className='w-[80%] mx-auto gap-6'>
                 {/* <div className=' my-10'> */}
                 <Accordion.Panel className=''>

@@ -24,47 +24,47 @@ const Accordian = (props) => {
         }, 6000);
       },[accordianNumber]);
     return (
-        <div className=' my-0'>
+        <div className=' my-[15rem] md:my-0'>
             
-            <div className='flex gap-8 items-center justify-center h-screen  '>
-                <div className=' flex-[2] flex flex-col items-center justify-center gap-8'>
+            <div className='flex gap-8 flex-col md:flex-row items-center justify-center h-screen  '>
+                <div className=' flex-[2] flex flex-col items-center justify-center gap-8 w-[100%]'>
                     {/* ====================================== */}
                     <div
-                     className={accordianNumber==1?" border border-black flex gap-4 p-4 w-[500px] rounded-md shadow-md": 
-                     `flex gap-4 p-4 max-w-[500px] rounded-md shadow-md `} onClick={()=>setAccordianNumber(1)}>
+                     className={accordianNumber==1?" border border-black flex gap-4 p-4 w-[90%] md:w-[500px] rounded-md shadow-md": 
+                     `flex gap-4 p-4 max-w-[500px] rounded-md shadow-md  w-[90%] md:w-[500px] `} onClick={()=>setAccordianNumber(1)}>
                         <div className=' h-[50px] aspect-square w-fit '>
                             <img src={props.data.content1.img} alt="" className=' h-full w-full ' />
 
                         </div>
                         <div className='flex flex-col gap-4 w-[50ch]'>
                             <h1 className=' text-2xl font-semibold '>{props.data.content1.h1}</h1>
-                            <p className={ accordianNumber==1?"w-40ch]": "hidden"}>{props.data.content1.p}</p>
+                            <p className={ accordianNumber==1?"w-[30ch] md:[40ch]": "hidden"}>{props.data.content1.p}</p>
 
                         </div>
                     </div>
                     {/* ========================================================= */}
-                    <div className={accordianNumber==2?" border border-black flex gap-4 p-4 w-[500px] rounded-md shadow-md": 
-                     `flex gap-4 p-4 max-w-[500px] rounded-md shadow-md `} onClick={()=>setAccordianNumber(2)}>
+                    <div className={accordianNumber==2?" border border-black flex gap-4 p-4  w-[90%] md:w-[500px] rounded-md shadow-md": 
+                     `flex gap-4 p-4 max-w-[500px] rounded-md shadow-md  w-[90%] md:w-[500px] `} onClick={()=>setAccordianNumber(2)}>
                         <div className=' h-[50px] aspect-square w-fit '>
                             <img src={props.data.content2.img} alt="" className=' h-full w-full ' />
 
                         </div>
                         <div className='flex flex-col gap-4 w-[45ch]'>
                             <h1 className=' text-2xl font-semibold '>{props.data.content2.h1}</h1>
-                            <p className={ accordianNumber==2?"w-[40ch]": "hidden"}>{props.data.content2.p}</p>
+                            <p className={ accordianNumber==2?"w-[30ch] md:[40ch]": "hidden"}>{props.data.content2.p}</p>
 
                         </div>
                     </div>
                     {/* ===================================================================== */}
-                    <div className={accordianNumber==3?" border border-black flex gap-4 p-4 w-[500px] rounded-md shadow-md": 
-                     `flex gap-4 p-4 max-w-[500px] rounded-md shadow-md `} onClick={()=>setAccordianNumber(3)}>
+                    <div className={accordianNumber==3?" border border-black flex gap-4 p-4  w-[90%] md:w-[500px] rounded-md shadow-md": 
+                     `flex gap-4 p-4 max-w-[500px] rounded-md shadow-md  w-[90%] md:w-[500px] `} onClick={()=>setAccordianNumber(3)}>
                         <div className=' h-[50px] aspect-square w-fit '>
                             <img src={props.data.content3.img} alt="" className=' h-full w-full ' />
 
                         </div>
                         <div className='flex flex-col gap-4 w-[45ch]'>
                             <h1 className=' text-2xl font-semibold '>{props.data.content3.h1}</h1>
-                            <p className={ accordianNumber==3?"w-[40ch]": "hidden"}>{props.data.content3.p}</p>
+                            <p className={ accordianNumber==3?"w-[30ch] md:w-[40ch]": "hidden"}>{props.data.content3.p}</p>
 
                         </div>
                     </div>

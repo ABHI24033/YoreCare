@@ -16,7 +16,7 @@ const slider = () => {
                         <img src={slider1} className=' rounded-md'/>
                     </div>
                     <div className="flex h-full items-center justify-center">
-                        <img src={slider2} alt="" className=' rounded-md'/>
+                        <img src={slider2} alt="" className=' rounded-md '/>
                     </div>
                     <div className="flex h-full items-center justify-center">
                         <img src={slider3} alt="" className=' rounded-md' />

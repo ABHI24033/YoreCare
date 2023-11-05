@@ -44,6 +44,7 @@ const FullHome = () => {
   return (
     <div>
       <Navbar/>
+      
       <Banner/>
       <div className="fullHome bg-white" >
         <ContactCard/>

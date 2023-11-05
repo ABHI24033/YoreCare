@@ -7,8 +7,8 @@ import PharmaHealthStore from '../img/Labsection/_Pharma+&+health+store.png'
 const LabBooking = () => {
   return (
     <div className=' my-8'>
-      <div className=' flex gap-4 w-[80%] mx-auto'>
-        <div className=' flex flex-col w-[35%] border border-slate-200 rounded-2xl h-[18rem] justify-center items-center p-5 
+      <div className=' flex gap-4 w-[80%] flex-col md:flex-row mx-auto'>
+        <div className=' flex flex-col w-[100%] md:w-[35%] border border-slate-200 rounded-2xl h-[18rem] justify-center items-center p-5 
         shadow-sm
         hover:shadow-lg hover:shadow-slate-500 '>
             <img src={Labbooking} alt="" className=' w-20' />
@@ -16,7 +16,7 @@ const LabBooking = () => {
             <p className=' px-5'>Find Labs, Book Home Services, And Get Reports On The YORE Care App!</p>
         </div>
 
-        <div className=' flex flex-col w-[35%] border rounded-2xl h-[18rem] border-slate-200 justify-center items-center p-5 
+        <div className=' flex flex-col w-[100%] md:w-[35%] border rounded-2xl h-[18rem] border-slate-200 justify-center items-center p-5 
         shadow-sm
         hover:shadow-lg hover:shadow-slate-500 '>
             <img src={Teleconsultation} alt="" className=' w-20' />
@@ -24,7 +24,7 @@ const LabBooking = () => {
             <p className=' px-5'>Find Doctors, Clinics, And Book Appointments With The YORE Care App!</p>
         </div>
 
-        <div className=' flex flex-col w-[35%] border rounded-2xl h-[18rem] border-slate-200 justify-center items-center p-5 
+        <div className=' flex flex-col w-[100%] md:w-[35%] border rounded-2xl h-[18rem] border-slate-200 justify-center items-center p-5 
         shadow-sm
         hover:shadow-lg hover:shadow-slate-500 '>
             <img src={PharmaHealthStore} alt="" className=' w-20' />
